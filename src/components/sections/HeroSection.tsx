@@ -20,7 +20,7 @@ const HeroSection = () => {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/20 mb-8 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
           <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse" />
-          <span className="text-blue-400 text-xs sm:text-sm font-medium tracking-wide">5 soluções · 1 ecossistema · Transformação completa</span>
+          <span className="text-blue-400 text-xs sm:text-sm font-medium tracking-wide">4 soluções · 1 ecossistema · Transformação completa</span>
         </div>
 
         {/* Heading */}
@@ -32,7 +32,7 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-slate-400 text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed opacity-0 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
-          Consultoria, dados, saúde mental, conformidade jurídica e conexão — tudo integrado para levar sua clínica, hospital ou empresa veterinária ao próximo nível.
+          Consultoria com dados, saúde mental, conformidade jurídica e eventos, tudo integrado para levar sua clínica, hospital ou empresa veterinária ao próximo nível.
         </p>
 
         {/* CTAs */}

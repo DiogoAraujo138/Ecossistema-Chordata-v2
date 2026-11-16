@@ -15,7 +15,8 @@ import {
   BookOpen,
   UserCheck,
   Lightbulb,
-  DollarSign
+  DollarSign,
+  BarChart3
 } from 'lucide-react';
 
 interface ServiceItem {
@@ -84,6 +85,11 @@ const tabs: ServiceCategory[] = [
         title: 'Valuation para Clínicas e Hospitais', 
         desc: 'Avaliação estratégica de negócios veterinários, com apoio na estruturação da operação para valorização do ativo e suporte comercial na busca por compradores.',
         icon: DollarSign
+      },
+      { 
+        title: 'Dashboards de Gestão e BI', 
+        desc: 'Dashboards de gestão e soluções de BI para decidir com base em dados.',
+        icon: BarChart3
       },
     ],
   },

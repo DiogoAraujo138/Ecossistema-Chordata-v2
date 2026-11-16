@@ -46,7 +46,7 @@ const EcosystemSection = () => {
           <h2 className="section-title text-white">
             Gestão Integrada para o Mercado Veterinário
           </h2>
-          <p className="text-slate-400 section-subtitle">5 soluções integradas. Um único ecossistema. Transformação completa.</p>
+          <p className="text-slate-400 section-subtitle">4 soluções integradas. Um único ecossistema. Transformação completa.</p>
         </div>
 
         {/* Desktop orbital diagram */}
