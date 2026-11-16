@@ -4,28 +4,21 @@ import { Shield } from 'lucide-react';
 import logoChordataEcossistema from '@/assets/logos/chordata-ecossistema-branco.png';
 import logoChordataPrincipal from '@/assets/logos/chordata-consultoria-new.png';
 import logoMentallvet from '@/assets/logos/mentall-new.png';
-import logoAnalytics from '@/assets/logos/chordata-analytics-new2.png';
-import logoVetconnection from '@/assets/logos/vetconnection-new2.png';
+import logoVetconnection from '@/assets/logos/vetconnection-escuro.png';
 import logoJuridicoPet from '@/assets/logos/juridico-pet-new.png';
 
 const satellites = [
   {
     name: 'Chordata Consultoria',
-    tagline: 'Estratégia e Gestão',
+    tagline: 'Estratégia, Gestão e Dados',
     logo: logoChordataPrincipal,
-    desc: 'Estratégia, gestão e desenvolvimento de negócios para clínicas, hospitais e empresas do mercado veterinário.',
+    desc: 'Estratégia, gestão, desenvolvimento de negócios e inteligência de dados, com dashboards de gestão e soluções de BI, para clínicas, hospitais e empresas do mercado veterinário.',
   },
   {
     name: 'MentAll.Vet',
     tagline: 'Saúde Mental Veterinária',
     logo: logoMentallvet,
     desc: 'Soluções voltadas à saúde mental, bem-estar corporativo e desenvolvimento humano para profissionais e empresas do setor veterinário.',
-  },
-  {
-    name: 'Chordata Analytics',
-    tagline: 'Inteligência de Dados',
-    logo: logoAnalytics,
-    desc: 'Inteligência de dados, dashboards de gestão e soluções de BI para tomada de decisão no mercado veterinário.',
   },
   {
     name: 'JurídicoPet Digital',
@@ -49,11 +42,11 @@ const EcosystemSection = () => {
     <section id="ecossistema" className="py-24 md:py-36 bg-slate-800">
       <div ref={ref} className={`container mx-auto px-6 max-w-6xl scroll-fade-up ${isVisible ? 'visible' : ''}`}>
         <div className="text-center mb-16">
-          <span className="section-label">— O Ecossistema —</span>
+          <span className="section-label">O Ecossistema</span>
           <h2 className="section-title text-white">
             Gestão Integrada para o Mercado Veterinário
           </h2>
-          <p className="text-slate-400 section-subtitle">5 soluções integradas. Um único ecossistema. Transformação completa.</p>
+          <p className="text-slate-400 section-subtitle">4 soluções que trabalham juntas em um único ecossistema.</p>
         </div>
 
         {/* Desktop orbital diagram */}
@@ -61,7 +54,7 @@ const EcosystemSection = () => {
           {/* Orbit ring */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] h-[90%] rounded-full border border-slate-700/50" />
 
-          {/* Center hub — shows description when selected, empty otherwise */}
+          {/* Center hub: shows description when selected, empty otherwise */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-52 h-52 rounded-full bg-slate-900 border border-slate-700 flex items-center justify-center shadow-xl z-10 p-6 transition-all duration-500">
             {selected !== null ? (
               <div className="text-center animate-fade-in flex flex-col items-center justify-center">
@@ -110,7 +103,7 @@ const EcosystemSection = () => {
           })}
         </div>
 
-        {/* Desktop — instruction text */}
+        {/* Desktop: instruction text */}
         <div className="hidden lg:block text-center mb-8">
           <p className="text-slate-500 text-xs">
             {selected !== null

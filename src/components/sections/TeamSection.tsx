@@ -1,10 +1,10 @@
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 
-import photoThales from '@/assets/team/thales-rodrigues.jpeg';
+import photoThales from '@/assets/team/thales-altieri.jpg';
 import photoDiogo from '@/assets/team/diogo-araujo.jpg';
 import photoEliz from '@/assets/team/eliz-modena.jpg';
-import photoMikael from '@/assets/team/mikael-cattani.jpeg';
-import photoEduardo from '@/assets/team/eduardo-monteiro.png';
+import photoMikael from '@/assets/team/mikael-cattani.jpg';
+import photoEduardo from '@/assets/team/eduardo-monteiro.jpg';
 
 const team = [
   {
@@ -46,7 +46,7 @@ const TeamSection = () => {
     <section id="time" className="py-24 md:py-36 bg-slate-50">
       <div ref={ref} className={`container mx-auto px-6 max-w-5xl scroll-fade-up ${isVisible ? 'visible' : ''}`}>
         <div className="text-center mb-16">
-          <span className="section-label">— Nosso Time —</span>
+          <span className="section-label">Nosso Time</span>
           <h2 className="section-title text-slate-900">
             Time de Consultores
           </h2>

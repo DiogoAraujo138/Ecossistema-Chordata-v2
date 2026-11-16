@@ -23,7 +23,7 @@ const ContactSection = () => {
     <section id="contato" className="py-24 md:py-36 bg-slate-900">
       <div ref={ref} className={`container mx-auto px-6 max-w-5xl scroll-fade-up ${isVisible ? 'visible' : ''}`}>
         <div className="text-center mb-16">
-          <span className="section-label">— Contato —</span>
+          <span className="section-label">Contato</span>
           <h2 className="section-title text-white">
             Vamos começar a sua transformação?
           </h2>
@@ -117,7 +117,7 @@ const ContactSection = () => {
               <div className="w-11 h-11 rounded-lg bg-slate-800 border border-slate-700 flex items-center justify-center shrink-0">
                 <MapPin size={18} className="text-blue-400" />
               </div>
-              <span className="text-sm">Instituto Caldeira — Tv. São José, 455, Navegantes, Porto Alegre - RS</span>
+              <span className="text-sm">Instituto Caldeira, Tv. São José, 455, Navegantes, Porto Alegre - RS</span>
             </div>
 
 

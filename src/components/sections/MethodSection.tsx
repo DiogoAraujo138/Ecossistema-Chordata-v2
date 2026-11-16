@@ -78,12 +78,12 @@ const MethodSection = () => {
       <div ref={ref} className={`container mx-auto px-6 max-w-6xl scroll-fade-up relative ${isVisible ? 'visible' : ''}`}>
         {/* Header */}
         <div className="text-center mb-16 md:mb-20">
-          <span className="section-label">— Nosso Método —</span>
+          <span className="section-label">Nosso Método</span>
           <h2 className="section-title text-slate-900">
             Método Chordata · RP3
           </h2>
           <p className="text-slate-500 section-subtitle max-w-2xl mx-auto">
-            Nossa metodologia proprietária atua nos três pilares fundamentais de qualquer negócio veterinário — integrando processos, pessoas e planejamento para gerar resultados consistentes e sustentáveis.
+            Nossa metodologia proprietária atua nos três pilares fundamentais de qualquer negócio veterinário, integrando processos, pessoas e planejamento para gerar resultados consistentes e sustentáveis.
           </p>
         </div>
 

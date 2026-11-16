@@ -15,7 +15,8 @@ import {
   BookOpen,
   UserCheck,
   Lightbulb,
-  DollarSign
+  DollarSign,
+  BarChart3
 } from 'lucide-react';
 
 interface ServiceItem {
@@ -85,6 +86,11 @@ const tabs: ServiceCategory[] = [
         desc: 'Avaliação estratégica de negócios veterinários, com apoio na estruturação da operação para valorização do ativo e suporte comercial na busca por compradores.',
         icon: DollarSign
       },
+      { 
+        title: 'Dashboards de Gestão e BI', 
+        desc: 'Dashboards de gestão e soluções de BI para decidir com base em dados.',
+        icon: BarChart3
+      },
     ],
   },
   {
@@ -148,7 +154,7 @@ const ServicesSection = () => {
       <div ref={ref} className={`container mx-auto px-6 max-w-6xl scroll-fade-up ${isVisible ? 'visible' : ''}`}>
         {/* Header */}
         <div className="text-center mb-16">
-          <span className="section-label">— Nossos Serviços —</span>
+          <span className="section-label">Nossos Serviços</span>
           <h2 className="section-title text-white">
             Soluções para o Mercado Veterinário
           </h2>

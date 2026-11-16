@@ -30,7 +30,7 @@ const PurposeSection = () => {
   return (
     <section id="proposito" className="py-24 md:py-36 bg-white">
       <div ref={ref} className={`container mx-auto px-6 text-center max-w-5xl scroll-fade-up ${isVisible ? 'visible' : ''}`}>
-        <span className="section-label">— Nosso Propósito —</span>
+        <span className="section-label">Nosso Propósito</span>
 
         <p className="font-heading text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-slate-900 leading-relaxed mb-6">
           Proporcionar ao mercado veterinário{' '}

@@ -1,8 +1,8 @@
-# 🧬 Ecossistema Chordata - Site Institucional v2
+# Ecossistema Chordata - Site Institucional v2
 
 Site institucional do Ecossistema Chordata — Gestão Integrada para o Mercado Veterinário.
 
-## 🛠️ Stack Tecnológica
+## Stack Tecnológica
 
 - **React 18** + **TypeScript**
 - **Vite 5** (build tool)
@@ -10,7 +10,7 @@ Site institucional do Ecossistema Chordata — Gestão Integrada para o Mercado 
 - **React Router DOM 6**
 - **Lucide React** (ícones)
 
-## 📋 Ordem das Seções (v2)
+## Ordem das Seções (v2)
 
 | # | Seção | ID (âncora) |
 |---|-------|-------------|
@@ -25,14 +25,14 @@ Site institucional do Ecossistema Chordata — Gestão Integrada para o Mercado 
 | 9 | Depoimentos | `#depoimentos` |
 | 10 | Contato | `#contato` |
 
-## 🔄 Mudanças da v1 para v2
+## Mudanças da v1 para v2
 
 - **Reorganização completa** da ordem das seções
-- **Remoção** das seções: Diferenciais (ProblemSection) e Marcas (BrandsSection)
+- **Remoção** das seções: Diferenciais e Marcas (arquivos apagados em 2026-11-16)
 - **Atualização da navegação** (Header) para refletir nova ordem
 - **Adição de IDs de âncora** nas seções Trajetória e Depoimentos
 
-## 🚀 Como Rodar
+## Como Rodar
 
 ```bash
 # Instalar dependências
@@ -47,7 +47,7 @@ npm run build
 
 O servidor de desenvolvimento roda em `http://localhost:8080`.
 
-## 📁 Estrutura Principal
+## Estrutura Principal
 
 ```
 src/
@@ -70,6 +70,17 @@ src/
 └── assets/                # Imagens e logos
 ```
 
-## 📝 Licença
+## Licença
 
 Projeto privado — Chordata Consultoria Digital © 2026
+
+## Marca e comunicação
+
+- O ecossistema exibe 4 soluções: Chordata Consultoria, MentAll.Vet, JurídicoPet Digital e VetConnection.
+- Inteligência de dados e BI são capacidade da Chordata Consultoria. A Chordata Analytics não é mais marca própria do site.
+- Regras de copy (sem travessões nem emojis) são protegidas por `src/test/marca.test.ts`.
+
+## Documentação
+
+- Contratos de agentes: `AGENTS.md`, `CLAUDE.md`, `PROJETO.md`, `BASE-STACK.md`.
+- Estado da adoção: `docs/SDLC/estado.md`. Spec e plano: `docs/superpowers/`. Relatórios antigos: `docs/historico/`.

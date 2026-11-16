@@ -4,7 +4,7 @@ import { Rocket, Building2, Globe2, BarChart3, Heart, Handshake, Scale, Calendar
 
 const timelineData = [
   {
-    ano: '2020–2021',
+    ano: '2020 a 2021',
     titulo: 'Início do Projeto',
     descricao:
       'Iniciamos o projeto da Chordata Consultoria, com o desenvolvimento de um projeto de precificação e processos operacionais e administrativos para o Centro Veterinário Welpen (São Leopoldo - RS).',
@@ -23,15 +23,15 @@ const timelineData = [
     ano: '2023',
     titulo: 'Expansão e Estruturação do Ecossistema',
     descricao:
-      'A Chordata já se torna presente em 4 estados (RS, SC, PA, MA), instituindo a empresa spin-off Chordata Analytics, desenvolvendo o MVP da MentAll.Vet com seu 1º Simpósio de Saúde Mental na Medicina Veterinária e Mercado de Trabalho (Caxias do Sul - RS).',
+      'A Chordata já se torna presente em 4 estados (RS, SC, PA, MA), desenvolvendo o MVP da MentAll.Vet com seu 1º Simpósio de Saúde Mental na Medicina Veterinária e Mercado de Trabalho (Caxias do Sul - RS).',
     icon: Globe2,
     destaque: false,
   },
   {
     ano: '2023',
-    titulo: 'Lançamento da Chordata Analytics',
+    titulo: 'Inteligência de dados na Consultoria',
     descricao:
-      'Lançamento da primeira solução de Business Intelligence em dashboards de gestão para o mercado veterinário.',
+      'Lançamento da primeira solução de Business Intelligence em dashboards de gestão para o mercado veterinário, dentro da Chordata Consultoria.',
     icon: BarChart3,
     destaque: false,
   },
@@ -39,15 +39,15 @@ const timelineData = [
     ano: '2024',
     titulo: 'MentAll.Vet',
     descricao:
-      'A saúde mental entra no ecossistema. O que era um projeto consultivo se tornou uma plataforma. Atendimento psicológico individual, programas corporativos e treinamentos voltados ao bem-estar de equipes veterinárias — porque equipes saudáveis constroem negócios sustentáveis.',
+      'A saúde mental entra no ecossistema. O que era um projeto consultivo se tornou uma plataforma. Atendimento psicológico individual, programas corporativos e treinamentos voltados ao bem-estar de equipes veterinárias, porque equipes saudáveis constroem negócios sustentáveis.',
     icon: Heart,
     destaque: false,
   },
   {
     ano: '2024',
-    titulo: 'Parceiro PAVE — ABHV',
+    titulo: 'Parceiro PAVE da ABHV',
     descricao:
-      'A Chordata se torna a mais nova parceira do PAVE — Programa de Apoio ao Veterinário Empreendedor da ABHV, buscando fortalecer o empreendedorismo no setor oferecendo soluções de ponta e contribuições à sua atuação profissional.',
+      'A Chordata se torna a mais nova parceira do PAVE, Programa de Apoio ao Veterinário Empreendedor da ABHV, buscando fortalecer o empreendedorismo no setor e apoiar a atuação profissional de quem empreende.',
     icon: Handshake,
     destaque: false,
   },
@@ -63,7 +63,7 @@ const timelineData = [
     ano: '2025',
     titulo: 'Evento Vet Connection',
     descricao:
-      'Realização do evento Vet Connection 2025 — projeto que promete ser a maior plataforma de conexão e inovação do mercado veterinário do Sul do Brasil. Seu primeiro evento ocorreu em Porto Alegre - RS, reunindo 5 mil visitantes, dentre eles 1.500 médicos veterinários, mais de 100 palestrantes distribuídos em 16 simpósios e mais de 60 expositores. O evento também contou com uma batalha de startups com premiação concedida pela VENTIUR Smart Capital.',
+      'Realização do evento Vet Connection 2025: projeto que promete ser a maior plataforma de conexão e inovação do mercado veterinário do Sul do Brasil. Seu primeiro evento ocorreu em Porto Alegre - RS, reunindo 5 mil visitantes, dentre eles 1.500 médicos veterinários, mais de 100 palestrantes distribuídos em 16 simpósios e mais de 60 expositores. O evento também contou com uma batalha de startups com premiação concedida pela VENTIUR Smart Capital.',
     icon: CalendarCheck,
     destaque: true,
   },
@@ -186,7 +186,7 @@ const TimelineSection = () => {
     <section id="trajetoria" className="py-24 md:py-36 bg-slate-900">
       <div ref={ref} className={`container mx-auto px-6 max-w-5xl scroll-fade-up ${isVisible ? 'visible' : ''}`}>
         <div className="text-center mb-16">
-          <span className="section-label">— Nossa Trajetória —</span>
+          <span className="section-label">Nossa Trajetória</span>
           <h2 className="section-title text-white">
             A Evolução do Ecossistema{' '}
             <span className="text-blue-400">Chordata</span>
@@ -207,7 +207,7 @@ const TimelineSection = () => {
 
         <div className="text-center mt-14">
           <p className="text-sm text-slate-500 italic">
-            Um ecossistema em constante evolução — construído para transformar o mercado veterinário.
+            Um ecossistema em constante evolução, construído para transformar o mercado veterinário.
           </p>
         </div>
       </div>
