@@ -47,7 +47,7 @@ const timelineData = [
     ano: '2024',
     titulo: 'Parceiro PAVE da ABHV',
     descricao:
-      'A Chordata se torna a mais nova parceira do PAVE, Programa de Apoio ao Veterinário Empreendedor da ABHV, buscando fortalecer o empreendedorismo no setor oferecendo soluções de ponta e contribuições à sua atuação profissional.',
+      'A Chordata se torna a mais nova parceira do PAVE, Programa de Apoio ao Veterinário Empreendedor da ABHV, buscando fortalecer o empreendedorismo no setor e apoiar a atuação profissional de quem empreende.',
     icon: Handshake,
     destaque: false,
   },
