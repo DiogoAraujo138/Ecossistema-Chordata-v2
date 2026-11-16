@@ -3,7 +3,7 @@
 - Data: 2026-11-16
 - Regra aplicada: skill `chordata-design`, seção 8. Sem travessão (`—`, `–`) no meio de frase; corrigir com dois-pontos, vírgula ou reescrita.
 - Escopo: texto visível ao visitante e `index.html`. Nenhum fato, número ou nome é alterado.
-- Estado: **nada aplicado**. O teste `copy > sem travessões em texto visível` segue vermelho até o aceite.
+- Estado: **aplicado em 2026-11-16** (seções A, B, C e D) após aceite de Diogo. Intervalo de anos: `2020 a 2021`. A seção D foi aplicada em commit separado, fácil de reverter. O teste `copy > sem travessões em texto visível` passa.
 
 ## A. Rótulos de seção (9 trechos)
 
