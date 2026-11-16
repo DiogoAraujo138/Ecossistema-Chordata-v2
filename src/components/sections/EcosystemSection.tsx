@@ -4,7 +4,7 @@ import { Shield } from 'lucide-react';
 import logoChordataEcossistema from '@/assets/logos/chordata-ecossistema-branco.png';
 import logoChordataPrincipal from '@/assets/logos/chordata-consultoria-new.png';
 import logoMentallvet from '@/assets/logos/mentall-new.png';
-import logoVetconnection from '@/assets/logos/vetconnection-new2.png';
+import logoVetconnection from '@/assets/logos/vetconnection-escuro.png';
 import logoJuridicoPet from '@/assets/logos/juridico-pet-new.png';
 
 const satellites = [
