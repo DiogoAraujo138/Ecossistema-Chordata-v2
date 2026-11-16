@@ -154,7 +154,7 @@ const ServicesSection = () => {
       <div ref={ref} className={`container mx-auto px-6 max-w-6xl scroll-fade-up ${isVisible ? 'visible' : ''}`}>
         {/* Header */}
         <div className="text-center mb-16">
-          <span className="section-label">— Nossos Serviços —</span>
+          <span className="section-label">Nossos Serviços</span>
           <h2 className="section-title text-white">
             Soluções para o Mercado Veterinário
           </h2>

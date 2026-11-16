@@ -5,17 +5,17 @@ import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 const testimonials = [
   {
     name: 'Glaziete Pinto',
-    role: 'Diretora do CPEA — Centro Profissionalizante de Estética Animal',
+    role: 'Diretora do CPEA, Centro Profissionalizante de Estética Animal',
     text: 'O trabalho da Chordata trouxe uma visão estratégica que transformou a forma como gerenciamos nosso centro. Profissionalismo e resultados reais.',
   },
   {
     name: 'Gilson de Andrade',
-    role: 'Representante Comercial — 24 anos de atuação no mercado',
+    role: 'Representante Comercial com 24 anos de atuação no mercado',
     text: 'O profissional do futuro é o que auxilia seus colaboradores a atingirem seu melhor resultado!',
   },
   {
     name: 'Edison Ben Hur Garcia',
-    role: 'Diretor — BioSul Importadora e Distribuidora Agropecuária',
+    role: 'Diretor, BioSul Importadora e Distribuidora Agropecuária',
     text: 'Estamos registrando nosso agradecimento à Chordata pela consultoria prestada. Foi de grande importância o trabalho e conhecimento que nos trouxe para seguirmos nossos planos com dedicação em cima do que foi diagnosticado e avaliado.',
   },
 ];
@@ -44,7 +44,7 @@ const TestimonialsSection = () => {
     <section id="depoimentos" className="py-24 md:py-36 bg-slate-800">
       <div ref={ref} className={`container mx-auto px-6 max-w-4xl scroll-fade-up ${isVisible ? 'visible' : ''}`}>
         <div className="text-center mb-16">
-          <span className="section-label">— Depoimentos —</span>
+          <span className="section-label">Depoimentos</span>
           <h2 className="section-title text-white">
             O que nossos clientes e parceiros estão falando de nós
           </h2>

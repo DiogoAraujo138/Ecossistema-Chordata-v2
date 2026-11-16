@@ -77,7 +77,7 @@ const LocationSection = () => {
     <section id="atuacao" className="py-24 md:py-36 bg-slate-900">
       <div ref={ref} className={`container mx-auto px-6 max-w-6xl scroll-fade-up ${isVisible ? 'visible' : ''}`}>
         <div className="text-center mb-16">
-          <span className="section-label">— Onde Atuamos —</span>
+          <span className="section-label">Onde Atuamos</span>
           <h2 className="section-title text-white">
             Presença Nacional & Impacto
           </h2>

@@ -42,7 +42,7 @@ const EcosystemSection = () => {
     <section id="ecossistema" className="py-24 md:py-36 bg-slate-800">
       <div ref={ref} className={`container mx-auto px-6 max-w-6xl scroll-fade-up ${isVisible ? 'visible' : ''}`}>
         <div className="text-center mb-16">
-          <span className="section-label">— O Ecossistema —</span>
+          <span className="section-label">O Ecossistema</span>
           <h2 className="section-title text-white">
             Gestão Integrada para o Mercado Veterinário
           </h2>
@@ -54,7 +54,7 @@ const EcosystemSection = () => {
           {/* Orbit ring */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] h-[90%] rounded-full border border-slate-700/50" />
 
-          {/* Center hub — shows description when selected, empty otherwise */}
+          {/* Center hub: shows description when selected, empty otherwise */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-52 h-52 rounded-full bg-slate-900 border border-slate-700 flex items-center justify-center shadow-xl z-10 p-6 transition-all duration-500">
             {selected !== null ? (
               <div className="text-center animate-fade-in flex flex-col items-center justify-center">
@@ -103,7 +103,7 @@ const EcosystemSection = () => {
           })}
         </div>
 
-        {/* Desktop — instruction text */}
+        {/* Desktop: instruction text */}
         <div className="hidden lg:block text-center mb-8">
           <p className="text-slate-500 text-xs">
             {selected !== null
