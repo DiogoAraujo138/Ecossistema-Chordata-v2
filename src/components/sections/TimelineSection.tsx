@@ -23,15 +23,15 @@ const timelineData = [
     ano: '2023',
     titulo: 'Expansão e Estruturação do Ecossistema',
     descricao:
-      'A Chordata já se torna presente em 4 estados (RS, SC, PA, MA), instituindo a empresa spin-off Chordata Analytics, desenvolvendo o MVP da MentAll.Vet com seu 1º Simpósio de Saúde Mental na Medicina Veterinária e Mercado de Trabalho (Caxias do Sul - RS).',
+      'A Chordata já se torna presente em 4 estados (RS, SC, PA, MA), desenvolvendo o MVP da MentAll.Vet com seu 1º Simpósio de Saúde Mental na Medicina Veterinária e Mercado de Trabalho (Caxias do Sul - RS).',
     icon: Globe2,
     destaque: false,
   },
   {
     ano: '2023',
-    titulo: 'Lançamento da Chordata Analytics',
+    titulo: 'Inteligência de dados na Consultoria',
     descricao:
-      'Lançamento da primeira solução de Business Intelligence em dashboards de gestão para o mercado veterinário.',
+      'Lançamento da primeira solução de Business Intelligence em dashboards de gestão para o mercado veterinário, dentro da Chordata Consultoria.',
     icon: BarChart3,
     destaque: false,
   },

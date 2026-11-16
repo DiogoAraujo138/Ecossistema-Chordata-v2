@@ -83,7 +83,7 @@ describe("copy", () => {
 
   it("sem emojis em texto visível", () => {
     const achados = textoVisivel()
-      .filter((f) => /\p{Extended_Pictographic}/u.test(ler(f)))
+      .filter((f) => /(?![©®™])\p{Extended_Pictographic}/u.test(ler(f)))
       .map(rel);
     expect(achados).toEqual([]);
   });

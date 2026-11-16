@@ -4,28 +4,21 @@ import { Shield } from 'lucide-react';
 import logoChordataEcossistema from '@/assets/logos/chordata-ecossistema-branco.png';
 import logoChordataPrincipal from '@/assets/logos/chordata-consultoria-new.png';
 import logoMentallvet from '@/assets/logos/mentall-new.png';
-import logoAnalytics from '@/assets/logos/chordata-analytics-new2.png';
 import logoVetconnection from '@/assets/logos/vetconnection-new2.png';
 import logoJuridicoPet from '@/assets/logos/juridico-pet-new.png';
 
 const satellites = [
   {
     name: 'Chordata Consultoria',
-    tagline: 'Estratégia e Gestão',
+    tagline: 'Estratégia, Gestão e Dados',
     logo: logoChordataPrincipal,
-    desc: 'Estratégia, gestão e desenvolvimento de negócios para clínicas, hospitais e empresas do mercado veterinário.',
+    desc: 'Estratégia, gestão, desenvolvimento de negócios e inteligência de dados, com dashboards de gestão e soluções de BI, para clínicas, hospitais e empresas do mercado veterinário.',
   },
   {
     name: 'MentAll.Vet',
     tagline: 'Saúde Mental Veterinária',
     logo: logoMentallvet,
     desc: 'Soluções voltadas à saúde mental, bem-estar corporativo e desenvolvimento humano para profissionais e empresas do setor veterinário.',
-  },
-  {
-    name: 'Chordata Analytics',
-    tagline: 'Inteligência de Dados',
-    logo: logoAnalytics,
-    desc: 'Inteligência de dados, dashboards de gestão e soluções de BI para tomada de decisão no mercado veterinário.',
   },
   {
     name: 'JurídicoPet Digital',
