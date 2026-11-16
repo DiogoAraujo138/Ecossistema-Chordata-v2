@@ -1,10 +1,10 @@
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 
-import photoThales from '@/assets/team/thales-rodrigues.jpeg';
+import photoThales from '@/assets/team/thales-altieri.jpg';
 import photoDiogo from '@/assets/team/diogo-araujo.jpg';
 import photoEliz from '@/assets/team/eliz-modena.jpg';
-import photoMikael from '@/assets/team/mikael-cattani.jpeg';
-import photoEduardo from '@/assets/team/eduardo-monteiro.png';
+import photoMikael from '@/assets/team/mikael-cattani.jpg';
+import photoEduardo from '@/assets/team/eduardo-monteiro.jpg';
 
 const team = [
   {
